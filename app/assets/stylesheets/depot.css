@@ -291,14 +291,17 @@ font: 120% bold;
 }
 #store .item_price, #store .total_line {
 text-align: right;
+font: 120% bold;
 }
 #store .total_line .total_cell {
 font-weight: bold;
 border-top: 1px solid #595;
+font: 120% bold;
 }
 #cart, #cart table {
-font-size: smaller;
+font: 100% bold;
 color: black;
+
 }
 #cart table {
 border-top: 1px dotted #595;

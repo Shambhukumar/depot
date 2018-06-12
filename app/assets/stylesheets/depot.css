@@ -53,7 +53,7 @@
 #product_list .list_actions {
   font-size:    x-small;
   text-align:   right;
-  padding-center: 1em;
+  padding-left: 1em;
 }
 
 #product_list .list_line_even {
@@ -180,7 +180,7 @@
 
 #cart, #cart table {
   font-size: smaller;
-  color: white;
+  
 }
 
 #cart table {

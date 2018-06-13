@@ -24,6 +24,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'will_paginate', '>= 3.0.pre'
 gem 'jquery-rails'
 group :development, :test do
 

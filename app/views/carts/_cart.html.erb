@@ -8,5 +8,9 @@
 		<td class="total_cell"><%= number_to_currency(cart.total_price) %></td>
 			</tr>
 			</table>
-		<%= button_to 'Empty cart', cart, :method => :delete, :confirm => 'Are you sure?', :id => 'button' %>
+			<table class="hello">
+			<td><%= button_to 'Empty cart', cart, :method => :delete, :confirm => 'Are you sure?', :id => 'button' %></td> 
+			<td> <%= button_to "Checkout", new_order_url, :method=>:get, :id => 'button'%></td>
+		</table>
+		
 <% end %>

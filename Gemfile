@@ -42,6 +42,6 @@ end
 # To use debugger
 # gem 'debugger'
 group :production do
-	gem 'pg', '0.9.0'
+	gem 'pg', '~> 0.11'
 	gem 'rails_12factor' 
 	end
